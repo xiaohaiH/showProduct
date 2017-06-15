@@ -109,7 +109,7 @@ footer .footbox .footmiddle p a:last-child i{background-position:-560px 0;}
 footer .footbox .footmiddle p a::before{top:-100%;left:100%;}
 
 footer .footbox .footmiddle p a:first-child::before{background-position:-360px -49px;}
- footer .footbo .footmiddle p a:nth-child(2)::before{background-position:-430px -49px;}
+footer .footbox .footmiddle p a:nth-child(2)::before{background-position:-430px -49px;}
 footer .footbox .footmiddle p a:last-child::before{background-position:-560px -49px;}
 footer .footbox .footmiddle p a:hover:first-child::before{top:0;left:0;}
 footer .footbox .footmiddle p a:hover:nth-child(2)::before{top:0;left:0;}
