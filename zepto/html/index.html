@@ -18,7 +18,9 @@
 	<div></div>
 </body>
 	<script type="text/javascript">
-		$('div').swipe(function(){
+		$('div').swipe(function(e){
+			if(!e) var e = window.event;
+			e.preventDefault();
 			$(this).remove()
 		})
 	</script>
